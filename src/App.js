@@ -1,15 +1,16 @@
 import React, {Component}from 'react';
-import MainNav from './Components/MainNav'
+import MainNav from './page.components/MainNav'
+import Home from './page.components/Home'
+
 
 class App extends Component{
 	render(){
 		return(
 			<div>
-				<p>
-					why
-				</p>
 				
 				<MainNav/>
+				
+				<Home/>
 				
 			</div>
 		)

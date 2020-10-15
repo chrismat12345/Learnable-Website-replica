@@ -1,0 +1,51 @@
+.container {
+  margin: 0px;
+  position: fixed;
+  top: 0;
+  right: 20px;
+  left: 0px;
+  background: white;
+  z-index: 40;
+  width: 100%;
+  
+}
+
+.mainNav {
+  display: grid;
+  grid-template-columns: 1.9fr 0.9fr;
+  grid-gap: 2rem;
+  margin: 2.5rem 0;
+}
+
+.subcontent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.subcontent p:last-child {
+  border: 1px solid rgba(134, 131, 131, 0.664);
+  padding: 7px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 12px;
+}
+.subcontent1 {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .mainNav {
+	display: none;
+	flex-direction: column;
+	color: blue;
+  }
+  .subcontent1{
+	  display: block;
+  }
+  .subcontent{
+	  display: block;
+  }
+
+}
