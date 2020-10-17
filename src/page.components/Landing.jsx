@@ -27,57 +27,57 @@ const Landing = () => {
           />
         </div>
 
-        <div className="diva" >
+        <div className="diva">
           <Image name="photo8" />
-         <div>
-					  <Text
-						  para="Every year, young Nigerians are launching new careers in the technology industry. Find out how Genesys is helping them do it. "
-						  header="Learnable"
-						  hstyle={{ color: "#000000" }}
-						  width={{ width: "500px" }}
-					  />
-					  <span
-						  style={{ color: "#03CEA4", fontSize: "12px", marginLeft: "30px" }}
-					  >
-						  Learn more
+          <div>
+            <Text
+              para="Every year, young Nigerians are launching new careers in the technology industry. Find out how Genesys is helping them do it. "
+              header="Learnable"
+              hstyle={{ color: "#000000" }}
+              width={{ width: "500px" }}
+            />
+            <span
+              style={{ color: "#03CEA4", fontSize: "12px", marginLeft: "30px" }}
+            >
+              Learn more
             </span>
-		 </div>
+          </div>
         </div>
 
-			  <div className="diva" style={{ background: "#EEEEEE" }}>
-         <div>
-					  <Text
-						  para="We are reimagining the workplace and how people work. Find out how our co-working spaces can help you enjoy the work that you do. "
-						  header="Agora"
-						  hstyle={{ color: "#000000" }}
-						  width={{ width: "500px" }}
-					  />
-					  <span
-						  style={{ color: "#03CEA4", fontSize: "12px", marginLeft: "30px" }}
-					  >
-						  Learn more
+        <div className="diva" style={{ background: "#EEEEEE" }}>
+          <div>
+            <Text
+              para="We are reimagining the workplace and how people work. Find out how our co-working spaces can help you enjoy the work that you do. "
+              header="Agora"
+              hstyle={{ color: "#000000" }}
+              width={{ width: "500px" }}
+            />
+            <span
+              style={{ color: "#03CEA4", fontSize: "12px", marginLeft: "30px" }}
+            >
+              Learn more
             </span>
-		 </div>
+          </div>
           <div>
             <Image name="photo9" />
           </div>
         </div>
 
-        <div className="diva" >
-          <Image name="photo10" />
+        <div className="diva">
+          <Image name="photo12" />
           <div>
-					  <Text
-						  para="The business environment is harsh for early-stage businesses. We can help you rise above it all. "
-						  header="StartZone"
-						  hstyle={{ color: "#000000" }}
-						  width={{ width: "500px" }}
-					  />
-					  <span
-						  style={{ color: "#03CEA4", fontSize: "12px", marginLeft: "30px" }}
-					  >
-						  Here’s How
+            <Text
+              para="The business environment is harsh for early-stage businesses. We can help you rise above it all. "
+              header="StartZone"
+              hstyle={{ color: "#000000" }}
+              width={{ width: "500px" }}
+            />
+            <span
+              style={{ color: "#03CEA4", fontSize: "12px", marginLeft: "30px" }}
+            >
+              Here’s How
             </span>
-		  </div>
+          </div>
         </div>
 
         <div className="diva" style={{ background: "#EEEEEE" }}>
