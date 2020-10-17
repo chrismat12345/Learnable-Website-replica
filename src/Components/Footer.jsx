@@ -1,6 +1,7 @@
 import React from "react";
 import Text2 from "./Text.component2";
 import '../ComponentCSS/Footer.css'
+import Icons from '../Components/Icons'
 
 const Footer = () => {
   return (
@@ -32,6 +33,26 @@ const Footer = () => {
               width={{ width: "200px" }}
             />
           </div>
+        </div>
+
+
+        <div className="social">
+          <div className="social-inner">
+          <Icons name='vector4'/>
+          <Icons name='vector1'/>
+          
+          <Icons name='vector11'/>
+          <Icons name='vector7'/>
+          <Icons name='vector6'/>
+          <Icons name='vector5'/>
+        
+
+
+          </div>
+        <div className="inner2">
+            <p> &copy; Genesys 2020</p>
+            <p>Privacy Statement</p>
+        </div>
         </div>
       </div>
     </div>

@@ -64,7 +64,7 @@ const Landing = () => {
         </div>
 
         <div className="diva">
-          <Image name="photo12" />
+          <Image name="photo10" />
           <div>
             <Text
               para="The business environment is harsh for early-stage businesses. We can help you rise above it all. "

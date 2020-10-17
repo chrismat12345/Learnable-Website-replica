@@ -1,0 +1,22 @@
+.faq-container{
+	 margin-top: 8rem;
+	 display: none;
+ 
+  
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto
+}
+.faq-text-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.faq-text-container hr{
+	border: 0.5px solid grey;
+	
+}
+.faq-text-container h3{
+	margin-right: 30px;
+}

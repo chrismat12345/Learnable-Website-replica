@@ -7,3 +7,17 @@
 	justify-content: space-evenly;
 
 }
+.social{
+	margin: 8rem;
+}
+.social-inner{
+	display: flex;
+	justify-content: center;
+}
+.inner2{
+	display: flex;
+	justify-content: center;
+}
+.inner2 p{
+	margin-left: 1rem;
+}

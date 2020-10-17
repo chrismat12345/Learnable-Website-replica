@@ -1,0 +1,17 @@
+.software-container{
+	display: none;
+	
+ 
+  margin-top: 8rem;
+ 
+  
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+.code-image{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
