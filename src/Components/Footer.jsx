@@ -1,5 +1,6 @@
 import React from "react";
 import Text2 from "./Text.component2";
+import '../ComponentCSS/Footer.css'
 
 const Footer = () => {
   return (
@@ -17,6 +18,7 @@ const Footer = () => {
               para="Our Local Campus center: Kilometer 7, Enugu/Port Harcourt, Expressway, Centenary City, Enugu. Nigeria"
               header="GET IN TOUCH"
               width={{ width: "200px" }}
+              hstyle={{ color: "#000000", fontSize: "20px" }}
             />
           </div>
           <div className="footer-img">
@@ -25,8 +27,8 @@ const Footer = () => {
           <div>
             <Text2
               para="Learnable is proud to be a collaborative effort of all the arms of our product team "
-              header="Head to DevStudio"
-              hstyle={{ color: "#000000" }}
+						  header="HEAD TO DEVSTUDIO"
+              hstyle={{ color: "#000000", fontSize: "20px" }}
               width={{ width: "200px" }}
             />
           </div>
