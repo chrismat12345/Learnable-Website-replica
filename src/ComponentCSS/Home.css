@@ -139,7 +139,7 @@ box-shadow: 3px 4px 9px rgba(0, 0, 0, .4);
 	
 }
 .text-box{
-	background: orange;
+	
 	display: flex;
 	padding: 30px 0;
 	width: 95vw;
@@ -165,8 +165,8 @@ text-align: left;
 		
 }
 
-.parag{
-	border-bottom: 1px solid black;
+hr{
+	border: 1px solid rgba(0, 0, 0, 0.699);
 }
 
 

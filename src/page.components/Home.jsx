@@ -386,7 +386,7 @@ Trust us when we say we know how to have fun. "
 			  </div>
 
 
-   <Update/>
+   <Update bg={{background:'orange'}}/>
 
 
 
