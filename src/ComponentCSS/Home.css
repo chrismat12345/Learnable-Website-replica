@@ -1,7 +1,7 @@
 .home-container {
   margin-top: 8rem;
 
-  width: 95vw;
+  
   margin-left: auto;
   margin-right: auto;
 }
@@ -44,13 +44,19 @@
  
   height: 15.625rem;
   box-shadow: 3px 4px 9px rgba(0, 0, 0, 0.4);
+  background: #11c7a4;
   
   border-radius: 50%;
   margin-bottom: 1.25rem;
   margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
 
   z-index: 4;
+  
 }
+
+
 
 .home-shape {
   width: 15.625rem;
