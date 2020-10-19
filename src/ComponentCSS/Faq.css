@@ -1,22 +1,19 @@
-.faq-container{
-	 margin-top: 8rem;
-	 display: none;
- 
-  
+.faq-container {
+  margin-top: 8rem;
+
   width: 95vw;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
-.faq-text-container{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	
+.faq-text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.faq-text-container hr{
-	border: 0.5px solid grey;
-	
+.faq-text-container h3 {
+  border-bottom: 0.5px solid grey;
+  margin-bottom: 2.5rem;
 }
-.faq-text-container h3{
-	margin-right: 30px;
+.faq-text-container h3 {
+  margin-right: 2rem;
 }

@@ -5,11 +5,13 @@ import Image from "../Components/Image.Component";
 import Update from "../Components/Update";
 import "../ComponentCSS/Journal.css";
 import TextAndImageComponent from '../Components/TextAndImageComponent'
+import SecNav from './secNav'
 
 const Journal = () => {
   return (
     <div>
       <div className="journal-container">
+        <SecNav />
         <div style={{ background: "lightgrey" }}>
           <div className="diva" style={{ margin: "2rem 7rem", height: "9rem" }}>
             <h1 style={{ margin: "4rem"}} >Journal</h1>
@@ -36,7 +38,7 @@ const Journal = () => {
               para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sapien arcu vitae orci at molestie. Pharetra quisque donec accumsan rhoncus risus. Urna magna turpis duis imperdiet elit, et, hendrerit viverra risus. Vulputate euismod commodo donec tincidunt et, aliquam. Eget scelerisque netus habitant dui porttitor cursus. Ipsum sem ut tortor ac ullamcorper. Lacus. "
               header="Learn Design Thinking like a Pro and Build Projects that People will care about"
 						  hstyle={{ color: "#17255A" }}
-              width={{ width: "450px" }}
+              width={{ width: "28.1" }}
             />
           </div>
         </div>
@@ -45,30 +47,30 @@ const Journal = () => {
 	
 			  <div className="diva" style={{ marginTop: '0px' }}>
 				  <TextAndImageComponent name='image23' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 			 
 				  <TextAndImageComponent name='image24' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 		
 				  <TextAndImageComponent name='image25' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 			 >
 				  <TextAndImageComponent name='image26' facilitator='Theresa Brazen, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 			 </div>
 
 			 <div className="diva" style={{marginTop:'0px'}}>
 				  <TextAndImageComponent name='image23' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 			 
 				  <TextAndImageComponent name='image24' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 		
 				  <TextAndImageComponent name='image25' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 			 >
 				  <TextAndImageComponent name='image26' facilitator='Theresa Brazen, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
-' paragraph='INSPIRATION' color={{color:'#273043'}} />
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
 			 </div>
 				  <div style={{ textAlign: 'center', display :'flex',  justifyContent: 'center'
 				  }}>

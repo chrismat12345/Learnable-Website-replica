@@ -1,0 +1,22 @@
+.sec-nav-container {
+  position: sticky;
+  top: 8.5rem;
+
+  background: darkblue;
+
+  font-size: 0.8rem;
+}
+.sec-nav-container ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  list-style: none;
+  align-items: center;
+  padding: 1rem;
+  margin: 8.5rem auto 2rem auto;
+  flex-wrap: wrap;
+}
+ul li a {
+  color: white;
+}

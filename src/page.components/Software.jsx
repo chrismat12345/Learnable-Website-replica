@@ -4,11 +4,13 @@ import Footer from "../Components/Footer";
 import Text from '../Components/Text.component'
 import Image from '../Components/Image.Component'
 import Update from '../Components/Update'
+import SecNav from './secNav'
 
 const Software = () => {
   return (
     <div>
       <div className='software-container'>
+        <SecNav/>
 <div  >
 	
          <div className="diva">
@@ -16,7 +18,7 @@ const Software = () => {
             
 						  header="The Learnable Software Developer"
 						  hstyle={{ color: "#17255A", fontSize:'3rem' }}
-            width={{ width: "400px" }}
+            width={{ width: "25rem" }}
           />
           <div style={{ background: "#03CEA4", borderRadius: "50%" }}>
             <Image name="cutout1" radius={{ borderRadius: "50%" }} />
@@ -27,18 +29,18 @@ const Software = () => {
 						  para="Creativity means a lot to us. So we look for people who can think both logistically and artistically, and who know that limits are made to be pushed. We value skill and aptitude, but we honor those who care about working with their team to add the Genesys flavour to every project. "
 
 						  hstyle={{ color: "#000000" }}
-						  width={{ width: "500px" }}
+						  width={{ width: "32rem" }}
 					  />
 					  <Text
 						  para="As a developer, being part of the team exposes you to a range of diverse, like-minded talented people who are sure to make the experience fun for you. You’ll get a shot at building amazing things, developing yourself, learning on the job, while exchanging healthy jokes and having random hangouts once in a while. "
 
 						  hstyle={{ color: "#000000" }}
-						  width={{ width: "500px" }}
+						  width={{ width: "32rem" }}
 					  />
 					  <Text
 						  header="“You are someone people can count on. Every day, you come in ready to make great things happen.”"
 						  hstyle={{ color: "#03CEA4" }}
-						  width={{ width: "500px" }}
+						  width={{ width: "32rem" }}
 					  />
 		</div>
 
@@ -46,12 +48,12 @@ const Software = () => {
 			  <div className='code-image' >
 				  <img src="/images/photo3.png" alt=" coding" width='60%'  />
 
-<div style={{marginTop:'30px'}} >
+<div style={{marginTop:'2rem'}} >
 	<Text
             para="Play nice with other people."
 					  header="We expect you to…"
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
 		  <Text
             para="
@@ -61,7 +63,7 @@ Be an actively engaging person. That means you are present, motivated, and socia
 "
 					 
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
 		  <Text
             para="
@@ -71,7 +73,7 @@ Love to code. You understand the basics of programming and object-oriented desig
 "
 					
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
 		  <Text
             para="
@@ -81,7 +83,7 @@ Have an eye for detail. Your keen observation helps you catch discrepancies and 
 "
 					 
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
 		  <Text
             para="
@@ -90,7 +92,7 @@ Be innately curious. Your love for technology is insatiable, so you’re always 
 "
 					 
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
 		  <Text
             para="
@@ -98,7 +100,7 @@ Be innately curious. Your love for technology is insatiable, so you’re always 
 Appreciate good design. You want to make something that doesn't just work flawlessly but looks amazing."
 					
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
 </div>  
 			  </div>

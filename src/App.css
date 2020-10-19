@@ -1,0 +1,37 @@
+@media screen and (max-width:650px){
+	body{
+	width: 80vw;
+	}
+	.diva{
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.update {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.text-box {
+  display: flex;
+
+  width: 95vw;
+  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ .footer-container .content{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+
+}
+}

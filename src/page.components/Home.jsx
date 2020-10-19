@@ -4,10 +4,15 @@ import Text from "../Components/Text.component";
 import Image from "../Components/Image.Component";
 import Update from '../Components/Update'
 import Footer from '../Components/Footer'
+import TextAndImageComponent from '../Components/TextAndImageComponent'
+import FagText from '../Components/FagText'
+import SecNav from './secNav'
+
 
 const Home = () => {
   return (
     <div className="home-container">
+      <SecNav />
       {/*COMMING SOON SECTION */}
       <div className="home-coming">
         <div>
@@ -43,8 +48,11 @@ const Home = () => {
               <p>what to expect</p>
             </div>
           </div>
-          <div className="image1">
-            <img src="/images/rectangle4.png" alt="rectange4" width="1200" />
+          <div className="cone">
+            <img src="/images/arrowdown.png" alt=""height="70px" className='arr'/>
+            <div className="image1">
+              <img src="/images/rectangle4.png" alt="rectange4" width="1200" />
+            </div>
           </div>
         </div>
 
@@ -53,25 +61,25 @@ const Home = () => {
             para="Young SoftwareDevelopers Trained"
             header="305"
             hstyle={{ color: "#03CEA4" }}
-            width={{ width: "100px" }}
+            width={{ width: "6.65rem" }}
           />
           <Text
             para="Tech Enthusiasts"
             header="2100"
             hstyle={{ color: "#03CEA4" }}
-            width={{ width: "100px" }}
+					  width={{ width: "6.65rem" }}
           />
           <Text
             para="StartUps Incubated"
             header="8"
             hstyle={{ color: "#03CEA4" }}
-            width={{ width: "100px" }}
+					  width={{ width: "6.65rem" }}
           />
           <Text
             para="Small Businesses supported"
             header="250"
             hstyle={{ color: "#03CEA4" }}
-            width={{ width: "100px" }}
+					  width={{ width: "6.65rem" }}
           />
         </div>
 
@@ -82,7 +90,7 @@ const Home = () => {
                We primarily educate and groom software developers and designers, preparing them for the industry. "
             header="We Make People Great"
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
           <div style={{ background: "#03CEA4", borderRadius: "50%" }}>
             <Image name="cutout1" radius={{ borderRadius: "50%" }} />
@@ -96,7 +104,7 @@ const Home = () => {
 Our methods over the years have helped us discover ways to take education out of the classroom. We introduce our interns to learning by experimentation and problem-solving. To us, every task is an opportunity to learn. "
             header="An Unusual Learning Experience"
             hstyle={{ color: "#000000" }}
-            width={{ width: "500px" }}
+            width={{ width: "32rem" }}
           />
         </div>
 
@@ -107,7 +115,7 @@ Our methods over the years have helped us discover ways to take education out of
 
                 We believe in learning through experimentation. Our aim is to nurture and grow bright young minds from the get-go because that’s how our industry will thrive."
 			header="Learn to Build Software the Right Way"
-					  width={{ width: "500px" }}
+					  width={{ width: "32rem" }}
           >
 						  <span>For Developers</span>
           </Text>
@@ -152,7 +160,7 @@ Our methods over the years have helped us discover ways to take education out of
 
 Design is at the heart of everything we do at Genesys. Right from the start of the program, you’ll get your hands dirty as you get practically involved in the world’s most modern design concepts. At Genesys, we’re building designers who put the users first."
 						  header="Design Different"
-					  width={{ width: "500px" }}
+						  width={{ width: "32rem" }}
           >
 						  <span>For  Designers</span>
           </Text>
@@ -171,7 +179,7 @@ The Learnable experience can not be complete without the bag of fun times which 
 Trust us when we say we know how to have fun. "
 					  header="Learning can be fun…"
             hstyle={{ color: "#000000" }}
-            width={{ width: "450px" }}
+            width={{ width: "28.1rem" }}
           />
           <div>
             <Image name="photo5" />
@@ -182,32 +190,33 @@ Trust us when we say we know how to have fun. "
 
 
 
-			 <div className="diva">
+			 <div className="diva"   style={{alignItems:'center'
+       }} >
  <Text
 					  para="We have designed other learning activities that aren’t classroom-based. You will learn how to be a better person, how to have good conversations, how to work better with people and most importantly, how to lead other people. Hey! We’ll even teach you how to run a business during the Learnable Business Sessions."
 					  header="Learning doesn’t always have to be in the classroom"
             hstyle={{ color: "#000000" }}
-            width={{ width: "450px" }}
+            width={{ width: "28.1rem" }}
           />
 
 
 				  <div className="grid">
-				  <div className='img-contain'> <img src="/images/rectangle17.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle29.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle25.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle21.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle20.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle31.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle27.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle23.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle18.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle30.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle26.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle22.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle19.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle32.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle28.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectangle24.png" alt="waiting" style={{width:'100px', height:'100px'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle17.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle29.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle25.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle21.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle20.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle31.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle27.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle23.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle18.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle30.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle26.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle22.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle19.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle32.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle28.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectangle24.png" alt="waiting" style={{width:'7.5rem', height:'6.25rem'}}/> </div>
 			  </div>
 
 	</div>
@@ -218,91 +227,45 @@ Trust us when we say we know how to have fun. "
 
 
 
-<div className="diva">
-	<div className ='grid1'>
-					  <div className="diva-inner">
-						  <div className="inner-content">
-							   <img src="/images/cutout1.png" alt="anything" style={{width:'200px',height:'200px'}}/>
-							  <Text
-								  para="StartUps Incubated"
-								  header="8"
-								  hstyle={{ color: "#03CEA4" }}
-								  width={{ width: "100px" }}
-							  />
-						  </div>
-						  <div className="inner-content">
-							   <img src="/images/cutout1.png" alt="anything" style={{width:'200px',height:'200px'}}/>
-							  <Text
-								  para="StartUps Incubated"
-								  header="8"
-								  hstyle={{ color: "#03CEA4" }}
-								  width={{ width: "100px" }}
-							  />
-						  </div>
-						  <div className="inner-content">
-							   <img src="/images/cutout1.png" alt="anything" style={{width:'200px',height:'200px'}}/>
-							  <Text
-								  para="StartUps Incubated"
-								  header="8"
-								  hstyle={{ color: "#03CEA4" }}
-								  width={{ width: "100px" }}
-							  />
-						  </div>
+<div className="diva" style={{justifyContent: 'center',alignItems:'center',background:'#eeeeee'
+}}>
+				 
+				<div>
 
 
+                 <div className="diva"  style={{marginTop:'0px'}}>
 
-					  </div>
+						  <TextAndImageComponent name='nnamdi' facilitator='Managing Director' header3='Nnamdi'
+  width='120px' height='120px' color={{color:'#273043'}} />
+						  <TextAndImageComponent name='osita' facilitator='Learnable Coordinator' header3='Ositadinma'
+  width='120px' height='120px' color={{color:'#273043'}} />
+						  <TextAndImageComponent name='idowu' facilitator='Scrum Proffessional' header3='Idowu'
+  width='120px' height='120px' color={{color:'#273043'}} />
+		
+				  </div>
+					  <div className="diva" style={{marginTop:'0px'}}>
 
-
-
-					  <div className="diva-inner">
-						  <div className="inner-content">
-							  <img src="/images/cutout1.png" alt="anything" style={{width:'150px',height:'150px'}}/>
-							  
-							  <Text
-								  para="StartUps Incubated"
-								  header="8"
-								  hstyle={{ color: "#03CEA4" }}
-								  width={{ width: "100px" }}
-							  />
-						  </div>
-						  <div className="inner-content">
-							   <img src="/images/cutout1.png" alt="anything" style={{width:'200px',height:'200px'}}/>
-							  <Text
-								  para="StartUps Incubated"
-								  header="8"
-								  hstyle={{ color: "#03CEA4" }}
-								  width={{ width: "100px" }}
-							  />
-						  </div>
-						  <div className="inner-content">
-							   <img src="/images/cutout1.png" alt="anything" style={{width:'200px',height:'200px'}}/>
-							  <Text
-								  para="StartUps Incubated"
-								  header="8"
-								  hstyle={{ color: "#03CEA4" }}
-								  width={{ width: "100px" }}
-							  />
-						  </div>
-
-
-
-					  </div>
-	</div>
-
-
-<Text
-            para="As part of our calculated efforts to contribute to the emerging knowledge and skills driven economy of Nigeria, Learnable is a 6-month product development training program with an emphasis on software programming and product design. It is for outstanding young individuals who are passionate about building a career in the software industry. 
-
-               We primarily educate and groom software developers and designers, preparing them for the industry. "
-            header="We Make People Great"
-            hstyle={{ color: "#000000" }}
-            width={{ width: "400px" }}
-          />
+						  <TextAndImageComponent name='ezra' facilitator='Ass. Learnable Coordinator' header3='Ezra'
+ width='120px' height='120px' color={{color:'#273043'}} />
+						  <TextAndImageComponent name='david' facilitator='Ass. Learnable Coordinator' header3='David'
+ width='120px' height='120px' color={{color:'#273043'}} />
+						  <TextAndImageComponent name='ana1' facilitator='Software Lead' header3='Emmanuel'
+  width='120px' height='120px' color={{color:'#273043'}} />
+		
+				  </div>
 
 
 
 
+				</div>
+				  <div>
+					  <Text
+						  para="We have designed other learning activities that aren’t classroom-based. You will learn how to be a better person, how to have good conversations, how to work better with people and most importantly, how to lead other people. Hey! We’ll even teach you how to run a business during the Learnable Business Sessions."
+						  header="Learning doesn’t always have to be in the classroom"
+						  hstyle={{ color: "#000000" }}
+						  width={{ width: "28.1rem" }}
+					  />
+				  </div>
 </div>
 
 
@@ -315,34 +278,34 @@ Trust us when we say we know how to have fun. "
 
 
 
-	 <div className="diva">
+	 <div className="diva" style={{alignItems:'center'}}>
  <Text
             para="As part of our calculated efforts to contribute to the emerging knowledge and skills driven economy of Nigeria, Learnable is a 6-month product development training program with an emphasis on software programming and product design. It is for outstanding young individuals who are passionate about building a career in the software industry. 
 
                We primarily educate and groom software developers and designers, preparing them for the industry. "
             header="We Make People Great"
             hstyle={{ color: "#000000" }}
-            width={{ width: "400px" }}
+            width={{ width: "25rem" }}
           />
 
 
 				  <div className="grid">
-				  <div className='img-contain'> <img src="/images/rectanglea17.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea29.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea25.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea21.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea20.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea31.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea27.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea23.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea18.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea30.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea26.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea22.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea19.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea32.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea28.png" alt="waiting" style={{width:'120px', height:'100px'}}/> </div>
-				  <div className='img-contain'> <img src="/images/rectanglea24.png" alt="waiting" style={{width:'100px', height:'100px'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea17.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea29.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea25.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea21.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea20.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea31.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea27.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea23.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea18.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea30.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea26.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea22.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea19.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea32.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea28.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
+				  <div className='img-contain'> <img src="/images/rectanglea24.png" alt="waiting" style={{width:'6.25rem', height:'6.25rem'}}/> </div>
 			  </div>
 
 	</div>
@@ -363,7 +326,7 @@ Trust us when we say we know how to have fun. "
 					  para="Our culture are the unspoken things that make us who we are at Genesys. To become one of us, you need to be like the rest of us. We believe that excellence is a culture, and we are committed to a philosophy of consistent improvement in everything we do. We are passionate, candid and we trust in the power of collaboration."
 					  header="Our Culture"
             hstyle={{ color: "#ffffff" }}
-            width={{ width: "400px" }}
+            width={{ width: "25rem" }}
           />
          
         </div>
@@ -379,11 +342,66 @@ Trust us when we say we know how to have fun. "
 						  para="Before you’re done with Learnable, you will apply everything you’ve learned. You’ll be part of a team made up of 2 designers and 4 developers. You’ll get to work alongside the Genesys team on projects and we’ll teach you how “the sauce” is made. By combining technology, design, and great ideas, your team will have the unique opportunity to collaborate with the Genesys team to bring your own concept to life, from the first pen sketches to the final functioning product. You’ll then get to show off your special project to everyone."
 						  header="Apply Your Knowledge"
 						  hstyle={{ color: "#ffffff" }}
-						  width={{ width: "400px" }}
+						  width={{ width: "25rem" }}
 					  />
 					  <h6 style={{ color:'#03CEA4'}}>GET STARTED</h6>
 				 </div>
 			  </div>
+
+
+
+
+			  <div style={{ color:'#273043'}}>
+				  <h1 style={{margin:'4rem 12rem'}}>FAQ</h1>
+				
+					  <FagText text='How many people can attend a course?' />
+				
+				  <FagText text='What’s the learning experience like?'/>
+				  <FagText text='Who are the coaches?'/>
+				  <FagText text='How far in advance should we book?'/>
+				  <FagText text='Can you customize your courses?'/>
+				
+			  
+
+
+
+
+
+
+<div style={{background:'#eeeeee'}}>
+
+				  <h1 style={{ padding: '3rem', margin: '3rem 3rem 3rem 7rem', color:'#273043'}}>Journal</h1>
+				  <p style={{ padding: '3rem', margin: '0rem 0rem 0rem 7rem', color: '#03CEA4',fontSize:'0.7rem' }}>VIEW ALL</p>
+
+ <div className="diva" style={{marginTop:'0px'}}>
+				  <TextAndImageComponent name='image23' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
+			 
+				  <TextAndImageComponent name='image24' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
+		
+				  <TextAndImageComponent name='image25' facilitator='David Mong, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
+			 
+				  <TextAndImageComponent name='image26' facilitator='Theresa Brazen, Apr 9, 2020' header3='Learn Design Thinking like a Pro and Build Projects that People will care about
+' paragraph='INSPIRATION' width='200px' height='200px' color={{color:'#273043'}} />
+			 </div>
+	
+	
+</div>
+
+        </div>
+        <div className="diva">
+          <h4>Mentioned in</h4>
+          <img src="/images/image27.png" alt="logo" />
+          <img src="/images/image28.png" alt="logo" />
+          <img src="/images/image29.png" alt="logo" />
+          <img src="/images/image30.png" alt="logo" />
+        </div>
+
+
+
+
 
 
    <Update bg={{background:'orange'}}/>

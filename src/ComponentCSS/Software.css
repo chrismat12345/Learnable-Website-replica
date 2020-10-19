@@ -1,17 +1,13 @@
-.software-container{
-	display: none;
-	
- 
+.software-container {
   margin-top: 8rem;
- 
-  
+
   width: 95vw;
   margin-left: auto;
   margin-right: auto;
 }
-.code-image{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
+.code-image {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
